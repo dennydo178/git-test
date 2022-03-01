@@ -1,6 +1,7 @@
 Commit 1
 Test commit
 
-Test commit -m
 
 commit amend
+
+Test git diff
