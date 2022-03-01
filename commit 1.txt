@@ -1,2 +1,6 @@
 Commit 1
 Test commit
+
+Test commit -m
+
+commit amend
