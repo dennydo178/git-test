@@ -1,0 +1,22 @@
+#Bỏ theo dõi một tập tin
+ignore.txt
+
+#Bỏ theo dõi 1 đuôi tệp
+*.js
+*.exe
+
+#Theo dõi tập tin ahehe.js
+!ahehe.js
+
+#Bỏ theo dõi folder test
+/test
+
+#bỏ theo dõi tất cả thư mục con của tập test
+test/
+
+#bỏ theo dõi các file trong thư mục doc, không phải các file trong thư mục con
+#ví dụ bỏ theo dõi file doc/ahehe.txt, nhưng không bỏ theo dõi doc/doc1/ahihi.txt
+doc/*.txt
+
+#bỏ theo dõi tất cả các file txt trong thư mục doc, kể cả trong thư mục con 
+doc/**/*.txt
